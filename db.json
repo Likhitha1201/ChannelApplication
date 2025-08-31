@@ -1,0 +1,86 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "title": "Sample App",
+      "country": "India",
+      "device": "Mobile",
+      "category": "Games",
+      "version": "1.0.0",
+      "status": "Active",
+      "startDate": "2025-08-01",
+      "endDate": "2025-08-31"
+    },
+    {
+      "id": "2",
+      "title": "Another App",
+      "country": "USA",
+      "device": "Desktop",
+      "category": "Productivity",
+      "version": "2.0.0",
+      "status": "Inactive",
+      "startDate": "2025-09-01",
+      "endDate": "2025-09-30"
+    },
+    {
+      "id": 3,
+      "country": "India",
+      "device": "tv",
+      "tab": "Test-KIDS kids",
+      "category": "Promotion",
+      "version": "8.2.0",
+      "status": "done",
+      "title": "Kids shows",
+      "startDate": "2025-08-28",
+      "endDate": "2025-08-31"
+    },
+    {
+      "id": 4,
+      "country": "",
+      "device": "",
+      "tab": "Live",
+      "category": "",
+      "version": "",
+      "status": "processing",
+      "title": "",
+      "startDate": "",
+      "endDate": ""
+    },
+    {
+      "id": 5,
+      "country": "Canada",
+      "device": "auto",
+      "tab": "All",
+      "category": "test1",
+      "version": "auto",
+      "status": "processing",
+      "title": "ttt",
+      "startDate": "2024-02-07",
+      "endDate": "2025-08-04"
+    },
+    {
+      "id": 6,
+      "country": "",
+      "device": "",
+      "tab": "",
+      "category": "",
+      "version": "",
+      "status": "",
+      "title": "",
+      "startDate": "2025-08-21",
+      "endDate": "2025-08-21"
+    },
+    {
+      "id": 7,
+      "country": "",
+      "device": "",
+      "tab": "",
+      "category": "",
+      "version": "",
+      "status": "",
+      "title": "nfjkernfjkerjheirj",
+      "startDate": "",
+      "endDate": ""
+    }
+  ]
+}
