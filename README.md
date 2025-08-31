@@ -32,8 +32,8 @@ application/
 
 # To run the app, follow the steps below after cloning or downloading:
 
-Install dependencies: npm install
-Start the React App (UI): npm start
+- Install dependencies: npm install
+- Start the React App (UI): npm start
 
 # 🛠️ Tech Stack
 - Frontend: React JS, Material-UI (MUI)  
