@@ -193,10 +193,10 @@ export default function Webapp() {
                     </FormControl>
                     <Box sx={{ display: 'flex', justifyContent: 'flex-end', gap:'10px'}}>
                         <FormControl sx={{ height: '56px' }} >
-                        <Button variant="outlined" onClick={() => handleReset()}><RestartAltIcon />Reset</Button>
+                        <Button variant="outlined" sx={{borderColor:"#A50034", color:'#A50034'}} onClick={() => handleReset()}><RestartAltIcon />Reset</Button>
                     </FormControl>
                     <FormControl sx={{height: '56px' }}>
-                        <Button variant="contained"><SearchIcon /> Search</Button>
+                        <Button variant="contained" sx={{background:"#A50034"}}><SearchIcon /> Search</Button>
                     </FormControl> 
                     </Box>
                    
@@ -213,11 +213,11 @@ export default function Webapp() {
                     justifyContent="flex-end"
                     gap={2}
                 >
-                    <Button variant="contained" sx={{ background: 'red', minWidth: '90px' }} onClick={handleDelete}>
+                    <Button variant="outlined" sx={{color:'#A50034', borderColor: '#A50034', minWidth: '90px' }} onClick={handleDelete}>
                         <DeleteIcon />
                     </Button>
                     <div>
-                        <Button variant="contained" sx={{ minWidth: '90px' }} onClick={handleModelOpen}
+                        <Button variant="contained" sx={{ minWidth: '90px', background:"#A50034" }} onClick={handleModelOpen}
                             aria-labelledby="modal-modal-title"
                             aria-describedby="modal-modal-description">
                             Add
@@ -300,7 +300,8 @@ export default function Webapp() {
 
                                     <Box sx={{ display: 'flex', justifyContent: 'flex-end', gap:'10px' }}>
                                         <Button
-                                            variant="contained"
+                                            variant="outlined"
+                                            sx={{borderColor:'#A50034', color:'#A50034'}}
                                             onClick={() => {
                                                 const newRow = {
                                                     id: rows.length + 1,
@@ -335,7 +336,6 @@ export default function Webapp() {
                             </Box>
                         </Modal>
                     </div>
-
                 </Box>
                 <Paper>
                     <Table  sx={{ borderBlockStartColor :'red', width: '100%', overflow: "hidden" }}>
@@ -387,7 +387,6 @@ export default function Webapp() {
                         </TableContainer>
                     </Table>
                 </Paper>
-
                 <TablePagination
                     rowsPerPageOptions={[5, 10, 25]}
                     component="div"
